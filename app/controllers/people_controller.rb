@@ -9,7 +9,9 @@ class PeopleController < ApplicationController
         eye_color: %w(brown blue hazel green).sample,
         telephone_number: Faker::PhoneNumber.phone_number
       }
+
     end
+    
   end
 
 end
